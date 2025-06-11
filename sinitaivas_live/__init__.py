@@ -1,6 +1,11 @@
+# filepath: sinitaivas_live/__init__.py
 try:
-    from importlib.metadata import version
+    from importlib.metadata import version, PackageNotFoundError
 except ImportError:
-    from importlib_metadata import version  # type: ignore
+    from importlib_metadata import version, PackageNotFoundError  # type: ignore
 
-__version__ = version("sinitaivas-live")
+try:
+    __version__ = version("sinitaivas-live")
+except PackageNotFoundError:
+    # probably running from source, not installed
+    __version__ = "dev"

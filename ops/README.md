@@ -108,10 +108,17 @@ Finally, check that the service is up and running. You can check this from the s
 
 If you still have questions, want some more tips how to get started, or want to say that this does not make any sense and the entire setup should be changed, you can reach out:
 
-- Letizia Iannucci (letizia.iannucci@aalto.fi),
-  [@letiletizia on Telegram](https://t.me/letiletizia),
-  [@letiziaia on GitHub](https://github.com/letiziaia),
-  and of course [@letiziaian.bsky.social on Bluesky](https://bsky.app/profile/letiziaian.bsky.social)
+- Letizia Iannucci
+
+  [![Email](https://img.shields.io/badge/Email-letizia.iannucci@aalto.fi-green?style=flat-square&logo=gmail&logoColor=FFFFFF)](mailto:letizia.iannucci@aalto.fi)
+
+  [![GitHub](https://img.shields.io/badge/GitHub-letiziaia-blue?logo=github)](https://github.com/letiziaia)
+
+  [![Bluesky](https://img.shields.io/badge/Bluesky-@letiziaian.bsky.social-darkblue)](https://bsky.app/profile/letiziaian.bsky.social)
+
+  [![Telegram](https://img.shields.io/badge/Telegram-@letiletizia-blue?logo=telegram)](https://t.me/letiletizia)
+
+  [![X (Twitter)](https://img.shields.io/badge/X-@leetiletizia-blue?logo=x&logoColor=white)](https://twitter.com/leetiletizia)
 
 ## Last Updated
 
