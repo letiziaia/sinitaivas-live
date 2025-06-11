@@ -8,7 +8,7 @@ atproto = "~=0.0.54"
 click = "~=8.1.7"
 httpx = "~=0.27.2"
 loguru = "~=0.7.2"
-requests = "~=2.32.3"
+requests = "~=2.32.4"
 tenacity = "~=9.0.0"
 
 [dev-packages]
