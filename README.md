@@ -1,19 +1,28 @@
 # Sinitaivas Live
 
-[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 [![sinitaivas-live](https://github.com/letiziaia/sinitaivas-live/actions/workflows/validate.yml/badge.svg)](https://github.com/letiziaia/sinitaivas-live/actions/workflows/validate.yml)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/release/python-3110/)
-[![codecov](https://codecov.io/gh/letiziaia/sinitaivas-live/graph/badge.svg?token=s4ZAsLnIim)](https://codecov.io/gh/letiziaia/sinitaivas-live)
+[![Python 3.10+](https://img.shields.io/badge/python-3.0+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![codecov](https://codecov.io/gh/letiziaia/sinitaivas-live/graph/badge.svg?token=EY3Ha33SAF)](https://codecov.io/gh/letiziaia/sinitaivas-live)
+[![DOI](https://zenodo.org/badge/1000111410.svg)](https://doi.org/10.5281/zenodo.15641656)
 
 Welcome to the real-time data collection of the entire [Bluesky](https://bsky.app/)!
-Here below you find more info on the pipeline for the data collection.
+Here below you find more info on the pipeline for the data collection and on how to use the data for research and analysis.
 
 (_sinitaivas_ means _bluesky_ in Finnish)
+
+If you use the code or instructions in this repository in your research, please cite it using the DOI above. Here's the latest publications that have used data collected with _Sinitaivas Live_ code:
+
+- [![arXiv](https://img.shields.io/badge/arXiv-2506.03443-b31b1b.svg)](https://www.arxiv.org/pdf/2506.03443) Salloum A., Quelle D., Iannucci L., Bovet A., Kivelä M. ["Politics and Polarization on Bluesky"](https://www.arxiv.org/pdf/2506.03443)
 
 ## Table of Contents
 
 - [Bluesky Firehose](#bluesky-firehose)
-- [How to get started with data](#how-to-get-started-with-data)
+- [Data format](#data-format)
+- [Events](#events)
+- [Data partitioning](#data-partitioning)
+- [How to get started](#how-to-get-started)
+- [Contributing](#contributing)
+- [License](#license)
 - [Contacts](#contacts)
 - [Last Updated](#last-updated)
 
@@ -136,7 +145,9 @@ Once you have decided what part of the data you want to extract from the raw fil
 
 Besides this, partitions are also easier to manage, back up, and restore compared to a single large dataset, they help in managing and scaling large datasets, and make it easier to manage data lifecycle (e.g., data retention policies or archiving).
 
-## How to get started with data
+## How to get started
+
+_Step 0:_ Start the data collection. See [RUNBOOK.md](RUNBOOK.md) for details.
 
 _Step 1:_ Randomly choose one file and familiarize yourself with the data format. You can also refer to Bluesky documentation.
 
@@ -149,14 +160,31 @@ _Step 2:_ Download and install a database client or a library that supports hand
 
 _Step 3:_ Save your version of preprocessed data
 
+## Contributing
+
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on contributions, code style, and pull request workflow.
+
+## License
+
+See [LICENSE.md](LICENSE.md).
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
 ## Contacts
 
 If you still have questions, want some more tips how to get started, or want to say that this does not make any sense and the entire setup should be changed, you can reach out:
 
-- Letizia Iannucci (letizia.iannucci@aalto.fi),
-  [@letiletizia on Telegram](https://t.me/letiletizia),
-  [@letiziaia on GitHub](https://github.com/letiziaia),
-  and of course [@letiziaian.bsky.social on Bluesky](https://bsky.app/profile/letiziaian.bsky.social)
+- Letizia Iannucci
+
+  [![Email](https://img.shields.io/badge/Email-letizia.iannucci@aalto.fi-green?style=flat-square&logo=gmail&logoColor=FFFFFF)](mailto:letizia.iannucci@aalto.fi)
+
+  [![GitHub](https://img.shields.io/badge/GitHub-letiziaia-blue?logo=github)](https://github.com/letiziaia)
+
+  [![Bluesky](https://img.shields.io/badge/Bluesky-@letiziaian.bsky.social-darkblue)](https://bsky.app/profile/letiziaian.bsky.social)
+
+  [![Telegram](https://img.shields.io/badge/Telegram-@letiletizia-blue?logo=telegram)](https://t.me/letiletizia)
+
+  [![X (Twitter)](https://img.shields.io/badge/X-@leetiletizia-blue?logo=x&logoColor=white)](https://twitter.com/leetiletizia)
 
 ## Last Updated
 
