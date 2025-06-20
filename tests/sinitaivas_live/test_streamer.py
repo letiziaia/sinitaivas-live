@@ -185,7 +185,6 @@ def test_streamer_main_fresh(
     mock_get_fresh_client.assert_called_once()
     mock_reset_cursor.assert_called_once()
     mock_start_with_retry.assert_called_once()
-    mock_start_with_retry.assert_called_once()
 
 
 @patch("sinitaivas_live.streamer.start_with_retry")
