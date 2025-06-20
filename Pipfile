@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-atproto = "~=0.0.54"
+atproto = "~=0.0.61"
 click = "~=8.1.7"
 httpx = "~=0.27.2"
 loguru = "~=0.7.3"
