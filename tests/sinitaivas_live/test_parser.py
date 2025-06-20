@@ -221,8 +221,6 @@ def test_extract_record_from_blocks_json_fail_dict_success(
     # make mock_get_model_as_dict return a dict with bytes
     mock_get_model_as_dict.return_value = {"dict_key": b"bytes_value"}
     mock_bytes_io.convert_bytes_to_str.return_value = {"dict_key": "str_value"}
-    mock_get_model_as_dict.return_value = {"dict_key": b"bytes_value"}
-    mock_bytes_io.convert_bytes_to_str.return_value = {"dict_key": "str_value"}
 
     result = _extract_record_from_blocks(commit_event.copy(), car, op)
 
