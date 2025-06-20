@@ -1,7 +1,7 @@
 # Sinitaivas Live
 
 [![sinitaivas-live](https://github.com/letiziaia/sinitaivas-live/actions/workflows/validate.yml/badge.svg)](https://github.com/letiziaia/sinitaivas-live/actions/workflows/validate.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.0+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![codecov](https://codecov.io/gh/letiziaia/sinitaivas-live/graph/badge.svg?token=EY3Ha33SAF)](https://codecov.io/gh/letiziaia/sinitaivas-live)
 [![DOI](https://zenodo.org/badge/1000111410.svg)](https://doi.org/10.5281/zenodo.15641656)
 
@@ -10,7 +10,7 @@ Here below you find more info on the pipeline for the data collection and on how
 
 (_sinitaivas_ means _bluesky_ in Finnish)
 
-If you use the code or instructions in this repository in your research, please cite it using the DOI above. Here's the latest publications that have used data collected with _Sinitaivas Live_ code:
+If you use the code or instructions in this repository in your research, please cite it using the DOI above (see [https://zenodo.org/records/15641657](https://zenodo.org/records/15641657)). Here's the latest publications that have used data collected with _Sinitaivas Live_ code:
 
 - [![arXiv](https://img.shields.io/badge/arXiv-2506.03443-b31b1b.svg)](https://www.arxiv.org/pdf/2506.03443) Salloum A., Quelle D., Iannucci L., Bovet A., Kivelä M. ["Politics and Polarization on Bluesky"](https://www.arxiv.org/pdf/2506.03443)
 

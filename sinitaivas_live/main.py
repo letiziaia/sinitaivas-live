@@ -1,4 +1,6 @@
 import click
+from typing import Literal
+
 from sinitaivas_live.streamer import streamer_main
 from utils.logging import logger, handle_catch_error
 
@@ -8,12 +10,16 @@ from utils.logging import logger, handle_catch_error
 @click.option(
     "--mode", default="fresh", help="Mode to run the streamer [fresh/resume]."
 )
-def main(mode: str):
+def main(mode: Literal["fresh", "resume"]) -> None:
     """
     Main function to run the streamer.
 
     Parameters:
-        mode (str): Mode to run the streamer [fresh/resume].
+        mode (Literal["fresh", "resume"]):
+            The mode in which to run the streamer.
+            "fresh" starts a new stream, while "resume" continues from the last
+            known state of the cursor, if available.
+
     Returns:
         None
 
