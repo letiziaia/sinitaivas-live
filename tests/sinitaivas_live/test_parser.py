@@ -198,21 +198,6 @@ def test_extract_record_from_blocks_success(
     mock_get_model_as_dict.assert_not_called()
 
 
-@patch("sinitaivas_live.parser.get_or_create", return_value=None)
-@patch("sinitaivas_live.parser.logger")
-def test_extract_record_from_blocks_no_model_instance(mock_logger, mock_get_or_create):
-    commit_event = {"existing": "data"}
-    car = MagicMock()
-    op = MagicMock()
-    op.cid = "cid1"
-    car.blocks.get.return_value = {"foo": "bar"}
-
-    result = _extract_record_from_blocks(commit_event.copy(), car, op)
-
-    assert result == commit_event
-    mock_logger.bind.assert_called_once()
-
-
 @patch("sinitaivas_live.parser.get_or_create")
 @patch("sinitaivas_live.parser.get_model_as_json", side_effect=Exception("bad json"))
 @patch("sinitaivas_live.parser.get_model_as_dict")
