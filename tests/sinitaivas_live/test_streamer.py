@@ -197,7 +197,6 @@ def test_streamer_main_resume(
     mock_reset_cursor,
     mock_start_with_retry,
 ):
-    mock_get_fresh_client.return_value = MagicMock()
     streamer_main("resume")
     mock_get_fresh_client.assert_not_called()
     mock_reset_cursor.assert_not_called()
